@@ -8,9 +8,9 @@ export class Header extends Component {
                     <h1>crowdfund</h1>
                 </section>
                 <ul className="header-menu">
-                    <li className="menu-item"></li>
-                    <li className="menu-item"></li>
-                    <li className="menu-item"></li>
+                    <li className="menu-item">About</li>
+                    <li className="menu-item">Discover</li>
+                    <li className="menu-item">Get Started</li>
                 </ul>
             </header>
         )
