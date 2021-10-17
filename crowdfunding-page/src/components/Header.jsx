@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import logo from '../images/logo.svg'
 
 export class Header extends Component {
     render() {
         return (
             <header>
                 <section className="header-title">
-                    <h1>crowdfund</h1>
+                    <img src={ logo } alt="Logo" />
                 </section>
                 <ul className="header-menu">
                     <li className="menu-item">About</li>
